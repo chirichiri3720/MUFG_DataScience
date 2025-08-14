@@ -1,0 +1,6 @@
+depth: null
+learning_rate : null
+random_strength : null
+bagging_temperature: null
+
+name: catboost

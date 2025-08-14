@@ -1,0 +1,4 @@
+defaults:
+  - params: distilbert
+
+name: distilbert

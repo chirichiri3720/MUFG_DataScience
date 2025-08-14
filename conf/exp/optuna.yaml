@@ -1,0 +1,13 @@
+defaults: 
+  - base
+
+cv: true
+n_trials: 5
+n_startup_trials: 10
+n_jobs: 1
+storage: outputs/optuna_storage
+study_name: tmp-${now:%Y-%m-%d}-${now:%H-%M-%S}
+name: ExpOptuna
+task: classifier
+
+delete_study: false

@@ -1,0 +1,16 @@
+name: V2
+
+max_len: 512
+batch_size: 8
+test_size: 0.2
+feature_column: 'full_text'
+target_column: 'score'
+num_labels: 6
+# モデル名に合わせてtokenizer_nameを変更する
+# tokenizer_name: 'microsoft/deberta-v3-small'
+tokenizer_name: 'bert-base-uncased'
+# tokenizer_name: 'roberta-base' #なし
+# tokenizer_name: 'distilbert'
+# tokenizer_name: 'xlnet'
+# tokenizer_name: 'albert'
+# tokenizer_name: 'electra' #なし
